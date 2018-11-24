@@ -22,6 +22,9 @@ public class MapGenerator : MonoBehaviour
 
     public int smoothingIterations = 0;
 
+    public float marchingSquareSize = 1f;
+    /*Ep2 "Marching Squares" Note: Corners are "control nodes", intermediary points (between ctrl nodes) are
+    Simply "Nodes". These "Control Nodes" own the nodes directly above and to the right*/
     public void GenerateMap()
     {
         map = new int[width, height];
@@ -29,6 +32,8 @@ public class MapGenerator : MonoBehaviour
         
         for (int i = 0; i < smoothingIterations; i++)
             SmoothMap();
+        MeshGenerator meshGen = GetComponent<MeshGenerator>();
+        meshGen.GenerateMesh(map, marchingSquareSize);
     }
 
     void RandomFillMap()
@@ -83,7 +88,7 @@ public class MapGenerator : MonoBehaviour
         }
         return wallCount;
     }
-    void OnDrawGizmos()
+    /*void OnDrawGizmos()
     {
         if (map != null)
         {
@@ -96,5 +101,5 @@ public class MapGenerator : MonoBehaviour
                 }
             }
         }
-    }
+    }*/
 }

@@ -6,8 +6,11 @@
     <e p="C:\Users\Justin\Documents\GitHub\CellularAutomataTut\CellularAutomataTut" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="MapGenerator.cs" t="Include" />
-        <e p="MapGeneratorEditor.cs" t="Include" />
+        <e p="_Scripts" t="Include">
+          <e p="MapGenerator.cs" t="Include" />
+          <e p="MapGeneratorEditor.cs" t="Include" />
+          <e p="MeshGenerator.cs" t="Include" />
+        </e>
       </e>
       <e p="CellularAutomataTut.sln" t="IncludeFlat" />
       <e p="Library" t="ExcludeRecursive" />
