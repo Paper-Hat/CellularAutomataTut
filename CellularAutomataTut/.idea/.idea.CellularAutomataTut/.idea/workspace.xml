@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f8ce6cc-28cb-4b9a-9704-9c5e611fbfae" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.CellularAutomataTut/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CellularAutomataTut/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.CellularAutomataTut/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CellularAutomataTut/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MapGenerator.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MapGenerator.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MapGeneratorEditor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MapGeneratorEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/MapGenerator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/MapGenerator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/MeshGenerator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/MeshGenerator.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,7 +15,7 @@
     <session id="-508486784">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.opened" value="2" />
@@ -27,12 +23,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="8983" />
+          <entry key="cs" value="9126" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="8983" />
+          <entry key="C#" value="9126" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -52,26 +48,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/_Scripts/MapGenerator.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="24" column="41" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
+            <state relative-caret-position="336">
+              <caret line="35" column="86" selection-start-line="35" selection-start-column="86" selection-end-line="35" selection-end-column="86" />
               <folding>
-                <marker date="1543038569568" expanded="false" signature="6:158" ph="..." />
-                <marker date="1543038569568" expanded="true" signature="201:3614" ph="{...}" />
-                <marker date="1543038569568" expanded="true" signature="539:733" ph="/* Ep2 &quot;Marching Squares&quot; Note: Corners are &quot;control nodes&quot;, intermediary points (between ctrl nodes) are ... */" />
-                <marker date="1543038569568" expanded="true" signature="763:1044" ph="{...}" />
-                <marker date="1543038569568" expanded="true" signature="1070:1791" ph="{...}" />
-                <marker date="1543038569568" expanded="true" signature="1103:1167" ph="{...}" />
-                <marker date="1543038569568" expanded="true" signature="1363:1785" ph="{...}" />
-                <marker date="1543038569568" expanded="true" signature="1409:1775" ph="{...}" />
-                <marker date="1543038569568" expanded="true" signature="1813:2252" ph="{...}" />
-                <marker date="1543038569568" expanded="true" signature="1859:2246" ph="{...}" />
-                <marker date="1543038569568" expanded="true" signature="1914:2236" ph="{...}" />
-                <marker date="1543038569568" expanded="true" signature="2307:3155" ph="{...}" />
-                <marker date="1543038569568" expanded="true" signature="2527:3123" ph="{...}" />
-                <marker date="1543038569568" expanded="true" signature="2620:3113" ph="{...}" />
-                <marker date="1543038569568" expanded="true" signature="2729:2996" ph="{...}" />
-                <marker date="1543038569568" expanded="true" signature="2823:2978" ph="{...}" />
-                <marker date="1543038569568" expanded="true" signature="3160:3612" ph="/* void OnDrawGizmos() ... */" />
+                <marker date="1543092371737" expanded="false" signature="6:158" ph="..." />
+                <marker date="1543092371737" expanded="true" signature="201:3738" ph="{...}" />
+                <marker date="1543092371737" expanded="true" signature="539:733" ph="/* Ep2 &quot;Marching Squares&quot; Note: Corners are &quot;control nodes&quot;, intermediary points (between ctrl nodes) are ... */" />
+                <marker date="1543092371737" expanded="true" signature="763:1168" ph="{...}" />
+                <marker date="1543092371737" expanded="true" signature="1194:1915" ph="{...}" />
+                <marker date="1543092371737" expanded="true" signature="1227:1291" ph="{...}" />
+                <marker date="1543092371737" expanded="true" signature="1487:1909" ph="{...}" />
+                <marker date="1543092371737" expanded="true" signature="1533:1899" ph="{...}" />
+                <marker date="1543092371737" expanded="true" signature="1937:2376" ph="{...}" />
+                <marker date="1543092371737" expanded="true" signature="1983:2370" ph="{...}" />
+                <marker date="1543092371737" expanded="true" signature="2038:2360" ph="{...}" />
+                <marker date="1543092371737" expanded="true" signature="2431:3279" ph="{...}" />
+                <marker date="1543092371737" expanded="true" signature="2651:3247" ph="{...}" />
+                <marker date="1543092371737" expanded="true" signature="2744:3237" ph="{...}" />
+                <marker date="1543092371737" expanded="true" signature="2853:3120" ph="{...}" />
+                <marker date="1543092371737" expanded="true" signature="2947:3102" ph="{...}" />
+                <marker date="1543092371737" expanded="true" signature="3284:3736" ph="/* void OnDrawGizmos() ... */" />
               </folding>
             </state>
           </provider>
@@ -80,37 +76,35 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/_Scripts/MeshGenerator.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="784">
-              <caret line="98" column="62" lean-forward="true" selection-start-line="98" selection-start-column="62" selection-end-line="98" selection-end-column="62" />
+            <state relative-caret-position="308">
+              <caret line="56" column="48" lean-forward="true" selection-start-line="56" selection-start-column="48" selection-end-line="56" selection-end-column="48" />
               <folding>
-                <marker date="1543091631732" expanded="false" signature="6:131" ph="..." />
-                <marker date="1543091631732" expanded="true" signature="175:10221" ph="{...}" />
-                <marker date="1543091631732" expanded="true" signature="360:943" ph="{...}" />
-                <marker date="1543091631732" expanded="true" signature="573:730" ph="{...}" />
-                <marker date="1543091631732" expanded="true" signature="644:720" ph="{...}" />
-                <marker date="1543091631732" expanded="true" signature="986:3777" ph="{...}" />
-                <marker date="1543091631732" expanded="true" signature="1001:1135" ph="/* it is worth noting that mesh point order does not matter as long as you're following the outside ... */" />
-                <marker date="1543091631732" expanded="true" signature="1173:3771" ph="{...}" />
-                <marker date="1543091631732" expanded="true" signature="3824:4213" ph="{...}" />
-                <marker date="1543091631732" expanded="true" signature="4253:4490" ph="{...}" />
-                <marker date="1543091631732" expanded="true" signature="4307:4484" ph="{...}" />
-                <marker date="1543091631732" expanded="true" signature="4353:4474" ph="{...}" />
-                <marker date="1543091631732" expanded="true" signature="4539:4665" ph="{...}" />
-                <marker date="1543091631732" expanded="true" signature="4692:6358" ph="/* void OnDrawGizmos() ... */" />
-                <marker date="1543091631732" expanded="true" signature="6368:6434" ph="/// Holds 2d Array of squares ... " />
-                <marker date="1543091631732" expanded="true" signature="6462:8185" ph="{...}" />
-                <marker date="1543091631732" expanded="true" signature="6559:8179" ph="{...}" />
-                <marker date="1543091631732" expanded="true" signature="7035:7617" ph="{...}" />
-                <marker date="1543091631732" expanded="true" signature="7089:7603" ph="{...}" />
-                <marker date="1543091631732" expanded="true" signature="7787:8169" ph="{...}" />
-                <marker date="1543091631732" expanded="true" signature="7845:8155" ph="{...}" />
-                <marker date="1543091631732" expanded="true" signature="8209:9116" ph="{...}" />
-                <marker date="1543091631732" expanded="true" signature="8544:9110" ph="{...}" />
-                <marker date="1543091631732" expanded="true" signature="9138:9361" ph="{...}" />
-                <marker date="1543091631732" expanded="true" signature="9301:9355" ph="{...}" />
-                <marker date="1543091631732" expanded="true" signature="9371:9764" ph="/// A &quot;control node&quot; is one of the four &quot;corner&quot; nodes in a Square - whether this is &quot;active&quot; ... " />
-                <marker date="1543091631732" expanded="true" signature="9800:10214" ph="{...}" />
-                <marker date="1543091631732" expanded="true" signature="10008:10208" ph="{...}" />
+                <marker date="1543174349004" expanded="false" signature="6:131" ph="..." />
+                <marker date="1543174349004" expanded="true" signature="175:8452" ph="{...}" />
+                <marker date="1543174349004" expanded="true" signature="360:943" ph="{...}" />
+                <marker date="1543174349004" expanded="true" signature="573:730" ph="{...}" />
+                <marker date="1543174349004" expanded="true" signature="644:720" ph="{...}" />
+                <marker date="1543174349004" expanded="true" signature="986:3701" ph="{...}" />
+                <marker date="1543174349004" expanded="true" signature="1097:3695" ph="{...}" />
+                <marker date="1543174349004" expanded="true" signature="3748:4137" ph="{...}" />
+                <marker date="1543174349004" expanded="true" signature="4177:4414" ph="{...}" />
+                <marker date="1543174349004" expanded="true" signature="4231:4408" ph="{...}" />
+                <marker date="1543174349004" expanded="true" signature="4277:4398" ph="{...}" />
+                <marker date="1543174349004" expanded="true" signature="4463:4589" ph="{...}" />
+                <marker date="1543174349004" expanded="true" signature="4599:4665" ph="/// Holds 2d Array of squares ... " />
+                <marker date="1543174349004" expanded="true" signature="4693:6416" ph="{...}" />
+                <marker date="1543174349004" expanded="true" signature="4790:6410" ph="{...}" />
+                <marker date="1543174349004" expanded="true" signature="5266:5848" ph="{...}" />
+                <marker date="1543174349004" expanded="true" signature="5320:5834" ph="{...}" />
+                <marker date="1543174349004" expanded="true" signature="6018:6400" ph="{...}" />
+                <marker date="1543174349004" expanded="true" signature="6076:6386" ph="{...}" />
+                <marker date="1543174349004" expanded="true" signature="6440:7347" ph="{...}" />
+                <marker date="1543174349004" expanded="true" signature="6775:7341" ph="{...}" />
+                <marker date="1543174349004" expanded="true" signature="7369:7592" ph="{...}" />
+                <marker date="1543174349004" expanded="true" signature="7532:7586" ph="{...}" />
+                <marker date="1543174349004" expanded="true" signature="7602:7995" ph="/// A &quot;control node&quot; is one of the four &quot;corner&quot; nodes in a Square - whether this is &quot;active&quot; ... " />
+                <marker date="1543174349004" expanded="true" signature="8031:8445" ph="{...}" />
+                <marker date="1543174349004" expanded="true" signature="8239:8439" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -136,6 +130,7 @@
         <option value="$PROJECT_DIR$/Assets/MapGeneratorEditor.cs" />
         <option value="$PROJECT_DIR$/Assets/MapGenerator.cs" />
         <option value="$PROJECT_DIR$/Assets/MeshGenerator.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/MapGenerator.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/MeshGenerator.cs" />
       </list>
     </option>
@@ -211,12 +206,12 @@
       <option name="presentableId" value="Default" />
       <updated>1542957579340</updated>
       <workItem from="1542957591464" duration="14107000" />
-      <workItem from="1543090666840" duration="931000" />
+      <workItem from="1543090666840" duration="2685000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15038000" />
+    <option name="totallyTimeSpent" value="16792000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -228,8 +223,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="569" y="0" width="890" height="832" extended-state="0" />
-    <editor active="true" />
+    <frame x="578" y="2" width="890" height="832" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24939759" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -281,63 +275,61 @@
     <entry file="file://$PROJECT_DIR$/Assets/MapGeneratorEditor.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/_Scripts/MapGenerator.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="24" column="41" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
+        <state relative-caret-position="336">
+          <caret line="35" column="86" selection-start-line="35" selection-start-column="86" selection-end-line="35" selection-end-column="86" />
           <folding>
-            <marker date="1543038569568" expanded="false" signature="6:158" ph="..." />
-            <marker date="1543038569568" expanded="true" signature="201:3614" ph="{...}" />
-            <marker date="1543038569568" expanded="true" signature="539:733" ph="/* Ep2 &quot;Marching Squares&quot; Note: Corners are &quot;control nodes&quot;, intermediary points (between ctrl nodes) are ... */" />
-            <marker date="1543038569568" expanded="true" signature="763:1044" ph="{...}" />
-            <marker date="1543038569568" expanded="true" signature="1070:1791" ph="{...}" />
-            <marker date="1543038569568" expanded="true" signature="1103:1167" ph="{...}" />
-            <marker date="1543038569568" expanded="true" signature="1363:1785" ph="{...}" />
-            <marker date="1543038569568" expanded="true" signature="1409:1775" ph="{...}" />
-            <marker date="1543038569568" expanded="true" signature="1813:2252" ph="{...}" />
-            <marker date="1543038569568" expanded="true" signature="1859:2246" ph="{...}" />
-            <marker date="1543038569568" expanded="true" signature="1914:2236" ph="{...}" />
-            <marker date="1543038569568" expanded="true" signature="2307:3155" ph="{...}" />
-            <marker date="1543038569568" expanded="true" signature="2527:3123" ph="{...}" />
-            <marker date="1543038569568" expanded="true" signature="2620:3113" ph="{...}" />
-            <marker date="1543038569568" expanded="true" signature="2729:2996" ph="{...}" />
-            <marker date="1543038569568" expanded="true" signature="2823:2978" ph="{...}" />
-            <marker date="1543038569568" expanded="true" signature="3160:3612" ph="/* void OnDrawGizmos() ... */" />
+            <marker date="1543092371737" expanded="false" signature="6:158" ph="..." />
+            <marker date="1543092371737" expanded="true" signature="201:3738" ph="{...}" />
+            <marker date="1543092371737" expanded="true" signature="539:733" ph="/* Ep2 &quot;Marching Squares&quot; Note: Corners are &quot;control nodes&quot;, intermediary points (between ctrl nodes) are ... */" />
+            <marker date="1543092371737" expanded="true" signature="763:1168" ph="{...}" />
+            <marker date="1543092371737" expanded="true" signature="1194:1915" ph="{...}" />
+            <marker date="1543092371737" expanded="true" signature="1227:1291" ph="{...}" />
+            <marker date="1543092371737" expanded="true" signature="1487:1909" ph="{...}" />
+            <marker date="1543092371737" expanded="true" signature="1533:1899" ph="{...}" />
+            <marker date="1543092371737" expanded="true" signature="1937:2376" ph="{...}" />
+            <marker date="1543092371737" expanded="true" signature="1983:2370" ph="{...}" />
+            <marker date="1543092371737" expanded="true" signature="2038:2360" ph="{...}" />
+            <marker date="1543092371737" expanded="true" signature="2431:3279" ph="{...}" />
+            <marker date="1543092371737" expanded="true" signature="2651:3247" ph="{...}" />
+            <marker date="1543092371737" expanded="true" signature="2744:3237" ph="{...}" />
+            <marker date="1543092371737" expanded="true" signature="2853:3120" ph="{...}" />
+            <marker date="1543092371737" expanded="true" signature="2947:3102" ph="{...}" />
+            <marker date="1543092371737" expanded="true" signature="3284:3736" ph="/* void OnDrawGizmos() ... */" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/_Scripts/MeshGenerator.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="784">
-          <caret line="98" column="62" lean-forward="true" selection-start-line="98" selection-start-column="62" selection-end-line="98" selection-end-column="62" />
+        <state relative-caret-position="308">
+          <caret line="56" column="48" lean-forward="true" selection-start-line="56" selection-start-column="48" selection-end-line="56" selection-end-column="48" />
           <folding>
-            <marker date="1543091631732" expanded="false" signature="6:131" ph="..." />
-            <marker date="1543091631732" expanded="true" signature="175:10221" ph="{...}" />
-            <marker date="1543091631732" expanded="true" signature="360:943" ph="{...}" />
-            <marker date="1543091631732" expanded="true" signature="573:730" ph="{...}" />
-            <marker date="1543091631732" expanded="true" signature="644:720" ph="{...}" />
-            <marker date="1543091631732" expanded="true" signature="986:3777" ph="{...}" />
-            <marker date="1543091631732" expanded="true" signature="1001:1135" ph="/* it is worth noting that mesh point order does not matter as long as you're following the outside ... */" />
-            <marker date="1543091631732" expanded="true" signature="1173:3771" ph="{...}" />
-            <marker date="1543091631732" expanded="true" signature="3824:4213" ph="{...}" />
-            <marker date="1543091631732" expanded="true" signature="4253:4490" ph="{...}" />
-            <marker date="1543091631732" expanded="true" signature="4307:4484" ph="{...}" />
-            <marker date="1543091631732" expanded="true" signature="4353:4474" ph="{...}" />
-            <marker date="1543091631732" expanded="true" signature="4539:4665" ph="{...}" />
-            <marker date="1543091631732" expanded="true" signature="4692:6358" ph="/* void OnDrawGizmos() ... */" />
-            <marker date="1543091631732" expanded="true" signature="6368:6434" ph="/// Holds 2d Array of squares ... " />
-            <marker date="1543091631732" expanded="true" signature="6462:8185" ph="{...}" />
-            <marker date="1543091631732" expanded="true" signature="6559:8179" ph="{...}" />
-            <marker date="1543091631732" expanded="true" signature="7035:7617" ph="{...}" />
-            <marker date="1543091631732" expanded="true" signature="7089:7603" ph="{...}" />
-            <marker date="1543091631732" expanded="true" signature="7787:8169" ph="{...}" />
-            <marker date="1543091631732" expanded="true" signature="7845:8155" ph="{...}" />
-            <marker date="1543091631732" expanded="true" signature="8209:9116" ph="{...}" />
-            <marker date="1543091631732" expanded="true" signature="8544:9110" ph="{...}" />
-            <marker date="1543091631732" expanded="true" signature="9138:9361" ph="{...}" />
-            <marker date="1543091631732" expanded="true" signature="9301:9355" ph="{...}" />
-            <marker date="1543091631732" expanded="true" signature="9371:9764" ph="/// A &quot;control node&quot; is one of the four &quot;corner&quot; nodes in a Square - whether this is &quot;active&quot; ... " />
-            <marker date="1543091631732" expanded="true" signature="9800:10214" ph="{...}" />
-            <marker date="1543091631732" expanded="true" signature="10008:10208" ph="{...}" />
+            <marker date="1543174349004" expanded="false" signature="6:131" ph="..." />
+            <marker date="1543174349004" expanded="true" signature="175:8452" ph="{...}" />
+            <marker date="1543174349004" expanded="true" signature="360:943" ph="{...}" />
+            <marker date="1543174349004" expanded="true" signature="573:730" ph="{...}" />
+            <marker date="1543174349004" expanded="true" signature="644:720" ph="{...}" />
+            <marker date="1543174349004" expanded="true" signature="986:3701" ph="{...}" />
+            <marker date="1543174349004" expanded="true" signature="1097:3695" ph="{...}" />
+            <marker date="1543174349004" expanded="true" signature="3748:4137" ph="{...}" />
+            <marker date="1543174349004" expanded="true" signature="4177:4414" ph="{...}" />
+            <marker date="1543174349004" expanded="true" signature="4231:4408" ph="{...}" />
+            <marker date="1543174349004" expanded="true" signature="4277:4398" ph="{...}" />
+            <marker date="1543174349004" expanded="true" signature="4463:4589" ph="{...}" />
+            <marker date="1543174349004" expanded="true" signature="4599:4665" ph="/// Holds 2d Array of squares ... " />
+            <marker date="1543174349004" expanded="true" signature="4693:6416" ph="{...}" />
+            <marker date="1543174349004" expanded="true" signature="4790:6410" ph="{...}" />
+            <marker date="1543174349004" expanded="true" signature="5266:5848" ph="{...}" />
+            <marker date="1543174349004" expanded="true" signature="5320:5834" ph="{...}" />
+            <marker date="1543174349004" expanded="true" signature="6018:6400" ph="{...}" />
+            <marker date="1543174349004" expanded="true" signature="6076:6386" ph="{...}" />
+            <marker date="1543174349004" expanded="true" signature="6440:7347" ph="{...}" />
+            <marker date="1543174349004" expanded="true" signature="6775:7341" ph="{...}" />
+            <marker date="1543174349004" expanded="true" signature="7369:7592" ph="{...}" />
+            <marker date="1543174349004" expanded="true" signature="7532:7586" ph="{...}" />
+            <marker date="1543174349004" expanded="true" signature="7602:7995" ph="/// A &quot;control node&quot; is one of the four &quot;corner&quot; nodes in a Square - whether this is &quot;active&quot; ... " />
+            <marker date="1543174349004" expanded="true" signature="8031:8445" ph="{...}" />
+            <marker date="1543174349004" expanded="true" signature="8239:8439" ph="{...}" />
           </folding>
         </state>
       </provider>

@@ -32,6 +32,9 @@ public class MapGenerator : MonoBehaviour
         
         for (int i = 0; i < smoothingIterations; i++)
             SmoothMap();
+        int borderSize = 5;
+        int[,] borderedMap = new int[width + borderSize * 2, height + borderSize * 2];
+        
         MeshGenerator meshGen = GetComponent<MeshGenerator>();
         meshGen.GenerateMesh(map, marchingSquareSize);
     }

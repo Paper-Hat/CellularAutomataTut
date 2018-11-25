@@ -32,20 +32,19 @@ public class MeshGenerator : MonoBehaviour
 
     void TriangulateSquare(Square square)
     {
-        /*it is worth noting that mesh point order does not matter as long as you're following the outside
-        edge of the configuration*/
+        /*it is worth noting that mesh point order DOES matter: */
         switch (square.configuration){
             case 0:
                 break;
             //One-point config
             case 1:
-                MeshFromPoints(square.centerBottom, square.bottomLeft, square.centerLeft);
+                MeshFromPoints(square.centerLeft, square.centerBottom, square.bottomLeft);
                 break;
             case 2:
-                MeshFromPoints(square.centerRight, square.bottomRight, square.centerBottom);
+                MeshFromPoints(square.bottomRight, square.centerBottom, square.centerRight);
                 break;
             case 4:
-                MeshFromPoints(square.centerTop, square.topRight, square.centerRight);
+                MeshFromPoints(square.topRight, square.centerRight, square.centerTop);
                 break;
             case 8:
                 MeshFromPoints(square.topLeft, square.centerTop, square.centerLeft);
@@ -119,38 +118,6 @@ public class MeshGenerator : MonoBehaviour
         triangles.Add(b.vertexIndex);
         triangles.Add(c.vertexIndex);
     }
-    //Draw mesh cubes
-    /*void OnDrawGizmos()
-    {
-        if (squareGrid != null)
-        {
-            for (int x = 0; x < squareGrid.squares.GetLength(0); x++){
-                for (int y = 0; y < squareGrid.squares.GetLength(1); y++)
-                {
-                    Gizmos.color = (squareGrid.squares[x, y].topLeft.active) ? Color.black : Color.white;
-                    Gizmos.DrawCube(squareGrid.squares[x,y].topLeft.position, Vector3.one * 0.4f);
-                    
-                    Gizmos.color = (squareGrid.squares[x, y].topRight.active) ? Color.black : Color.white;
-                    Gizmos.DrawCube(squareGrid.squares[x,y].topRight.position, Vector3.one * 0.4f);
-                    
-                    Gizmos.color = (squareGrid.squares[x, y].bottomRight.active) ? Color.black : Color.white;
-                    Gizmos.DrawCube(squareGrid.squares[x,y].bottomRight.position, Vector3.one * 0.4f);
-                    
-                    Gizmos.color = (squareGrid.squares[x, y].bottomLeft.active) ? Color.black : Color.white;
-                    Gizmos.DrawCube(squareGrid.squares[x,y].bottomLeft.position, Vector3.one * 0.4f);
-
-                    Gizmos.color = Color.grey;
-                    Gizmos.DrawCube(squareGrid.squares[x,y].centerTop.position, Vector3.one * 0.15f);
-                    Gizmos.DrawCube(squareGrid.squares[x,y].centerRight.position, Vector3.one * 0.15f);
-                    Gizmos.DrawCube(squareGrid.squares[x,y].centerBottom.position, Vector3.one * 0.15f);
-                    Gizmos.DrawCube(squareGrid.squares[x,y].centerLeft.position, Vector3.one * 0.15f);
-                    
-
-                }
-            }
-
-        }
-    }*/
     
     /// <summary>
     /// Holds 2d Array of squares
